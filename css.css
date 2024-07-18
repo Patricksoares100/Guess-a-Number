@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(135deg, #00818a 0%, #fecfef 100%);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .divId {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.wallpaperscraft.com/image/single/question_sign_question_mark_169908_1080x1920.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    opacity: 0.8;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0;
+  }
+  
+  
+  .showNumber {
+    margin-top: 20px;
+    display: flex;
+    font-size: 2em;
+    color: #555;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
